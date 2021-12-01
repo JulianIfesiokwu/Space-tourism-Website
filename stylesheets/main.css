@@ -84,6 +84,120 @@
   height: auto;
 }
 
+.destination__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 7rem 0 7rem;
+}
+
+.destination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.destination__title {
+  text-transform: uppercase;
+  font-family: var(--ff-secondary-text);
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.destination__title .bold {
+  font-size: 1.7rem;
+}
+
+.destination__metrics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25%;
+}
+
+.destination__image {
+  width: 50%;
+}
+
+.destination__image img {
+  width: 100%;
+  height: auto;
+}
+
+.destination__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.destination__links {
+  font-family: var(--ff-secondary-text);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.destination__links a {
+  color: var(--light-grey);
+  padding-bottom: 1rem;
+}
+
+.destination__location {
+  color: var(--white);
+  font-size: 2rem;
+  font-family: var(--ff-heading-text);
+  text-transform: uppercase;
+}
+
+.about {
+  color: var(--light-grey);
+  font-family: var(--ff-secondary-text);
+  border-bottom: 2px solid var(--light-grey);
+  line-height: 20px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.destination__numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.distance {
+  margin-right: 2rem;
+}
+
+.distance__title, .time__title {
+  color: var(--light-grey);
+  text-transform: uppercase;
+  font-family: var(--ff-secondary-text);
+}
+
+.actual__distance, .actual__time {
+  color: var(--white);
+  text-transform: uppercase;
+  font-family: var(--ff-heading-text);
+}
+
 .container {
   background: url(../assets/home/background-home-desktop.jpg) no-repeat fixed center;
   height: 100vh;
