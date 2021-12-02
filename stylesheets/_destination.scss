@@ -1,3 +1,9 @@
+.destination-container {
+    background: url(../assets/destination/background-destination-desktop.jpg) no-repeat fixed center;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .destination__main {
     display: flex;
     padding: 0 7rem 0 7rem;

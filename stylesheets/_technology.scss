@@ -1,0 +1,106 @@
+.technology-container {
+    background: url(../assets/technology/background-technology-desktop.jpg) no-repeat fixed center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.technology__main {
+    display: flex;
+    padding: 0 7rem;
+}
+
+.technology {
+    display: flex;
+    flex-direction: column;
+}
+
+.technology__title {
+    text-transform: uppercase;
+    font-family: var(--ff-secondary-text);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    color: var(--white);
+    font-size: 2rem;
+
+    .bold {
+        font-size: 1.7rem;
+    }
+}
+
+.technology__metrics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+}
+
+.technology__image {
+    width: 50%;
+}
+
+.technology__image img {
+    width: 100%;
+    height: auto;
+}
+
+.technology__information {
+    display: flex;
+}
+
+.technology__links {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--ff-secondary-text);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.technology__links a{
+    color: var(--light-grey);
+    font-family: var(--ff-heading-text);
+    padding-bottom: 2rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 0.75rem;
+    border: 1px solid var(--white);
+    margin-bottom: 1rem;
+}
+
+.technology__more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.terminology {
+    color: var(--light-grey);
+    font-family: var(--ff-secondary-text);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+
+#technology__active {
+    background-color: var(--white);
+    color: black;
+}
+
+.technology__heading {
+    color: var(--white);
+    font-size: 3rem;
+    font-family: var(--ff-heading-text);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.technology__about {
+    color: var(--light-grey);
+    font-family: var(--ff-secondary-text);
+    line-height: 20px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}

@@ -1,7 +1,8 @@
-@import './config';
-@import './responsive';
-@import './crew';
-@import './destination';
+@import './_config';
+@import './_responsive';
+@import './_crew';
+@import './_destination';
+@import './_technology.scss';
 
 .container {
     background: url(../assets/home/background-home-desktop.jpg) no-repeat fixed center;

@@ -1,3 +1,9 @@
+.crew-container {
+    background: url(../assets/crew/background-crew-desktop.jpg) no-repeat fixed center;
+    height: 100vh;
+    overflow: hidden;
+}
+
 .crew {
     display: flex;
     color: var(--white);
